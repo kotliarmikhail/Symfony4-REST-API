@@ -78,7 +78,7 @@ final class ArticleController extends FOSRestController
 
     /**
      * Replaces Article resource
-     * @Rest\Put("/articles/{id}")
+     * @Rest\Put("/articles/{articleId}")
      * @ParamConverter("articleDTO", converter="fos_rest.request_body")
      * @param int $articleId
      * @param ArticleDTO $articleDTO
